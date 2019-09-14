@@ -19,9 +19,12 @@ namespace Taller4._3
 
         private void Btnmostrar_Click(object sender, EventArgs e)
         {
-
-            
-            
+            int limite = 100;
+            int i;
+            for (i = 0; i < limite; i++)
+            {
+                dataGridView1.Rows.Add(i + 1 + "  " + txtnombre.Text);
+            }
 
         }
     }
